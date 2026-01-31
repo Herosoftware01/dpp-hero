@@ -25,5 +25,3 @@ jobs:
     - name: Deploy to IIS folder
       run: xcopy dist "D:\dpp.herofashion\dist" /E /H /C /I /Y
 
-    - name: Restart IIS
-      run: iisreset
