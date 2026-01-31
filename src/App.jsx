@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        QR Track Hero Products
+        QR Track Hero Products sample test application.
       </div>
     </>
   )
