@@ -20,10 +20,10 @@ jobs:
       run: npm run build
 
     - name: Copy web.config
-      run: copy web.config build\web.config
+      run: copy web.config dist\web.config
 
     - name: Deploy to IIS folder
-      run: xcopy build "D:\dpp.herofashion\dist" /E /H /C /I /Y
+      run: xcopy dist "D:\dpp.herofashion\dist" /E /H /C /I /Y
 
     - name: Restart IIS
       run: iisreset
