@@ -9,11 +9,7 @@ function App() {
   return (
     <>
       <div>
-<<<<<<< HEAD
         QR Track Hero Products
-=======
-        QR Track HeroFashion
->>>>>>> a1d6a6afead4534e9650e19579ee4154f5340f61
       </div>
     </>
   )
